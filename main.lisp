@@ -38,6 +38,7 @@
   (:import-from #:rove/reporter/spec
                 #:spec-reporter)
   (:import-from #:rove/reporter/dot)
+  (:import-from #:rove/reporter/junit)
   (:import-from #:uiop)
   (:export #:*debug-on-error*
            #:ok
